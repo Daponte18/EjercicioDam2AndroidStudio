@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun cambiarVentana() {
-       // lateinit var binding: ActivityVentana2Binding
 
-        //binding=ActivityVentana2Binding.inflate(layoutInflater)
-        //setContentView(binding.root)
         var miIntent: Intent =Intent(this, Ventana2::class.java)
+
+        miIntent.putExtra("nombre", binding.cajaNombre.text.toString())
+        miIntent.putExtra("edad", binding.cajaEdad.text.toString())
         startActivity(miIntent)
 
     }
