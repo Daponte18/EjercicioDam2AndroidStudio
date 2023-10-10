@@ -26,7 +26,7 @@ class Ventana2 : AppCompatActivity() {
         var cadena: String =""
         var i:Int=1
         for (p in AlmacenPersonas.personas){
-            cadena= " "+i+". "+p.nombre+" "+p.edad+ "\n"+"\n"
+            cadena= " "+i+". "+p.nombre+" "+p.edad+ "\n"
             i++
             binding.multiLine.setText(cadena)
         }
