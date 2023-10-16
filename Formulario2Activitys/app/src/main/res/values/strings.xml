@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Formulario2Activitys</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="continuar">Continuar</string>
+    <string name="volver">Volver</string>
 </resources>

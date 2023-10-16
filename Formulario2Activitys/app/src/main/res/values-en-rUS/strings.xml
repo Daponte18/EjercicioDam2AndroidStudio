@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulario2Activitys</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Surname</string>
+
+    <string name="correo">Mail</string>
+    <string name="contraseña">Password</string>
+    <string name="continuar">Next</string>
+    <string name="volver">Back</string>
+</resources>
