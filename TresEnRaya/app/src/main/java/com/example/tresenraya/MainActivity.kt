@@ -82,11 +82,7 @@ class MainActivity : AppCompatActivity() {
                         if (ganador == 1) {
                             mediaPlayer1 = MediaPlayer.create(this, R.raw.mario)
                             mediaPlayer1.start()
-                            Toast.makeText(
-                                this,
-                                "EL JUGADOR 1 HA SIDO EL GANADOR",
-                                Toast.LENGTH_SHORT
-                            ).show()
+                            Toast.makeText(this,"EL JUGADOR 1 HA SIDO EL GANADOR", Toast.LENGTH_SHORT).show()
                             mediaPlayer1 = MediaPlayer.create(this, R.raw.ganar)
                             mediaPlayer1.start()
                             binding.txtConGanadasJ1.setText(
@@ -97,16 +93,10 @@ class MainActivity : AppCompatActivity() {
                         } else if (ganador == 2) {
                             mediaPlayer1 = MediaPlayer.create(this, R.raw.luigi)
                             mediaPlayer1.start()
-                            Toast.makeText(
-                                this,
-                                "EL JUGADOR 2 HA SIDO EL GANADOR",
-                                Toast.LENGTH_SHORT
-                            ).show()
+                            Toast.makeText(this,"EL JUGADOR 2 HA SIDO EL GANADOR",Toast.LENGTH_SHORT).show()
                             mediaPlayer1 = MediaPlayer.create(this, R.raw.ganar)
                             mediaPlayer1.start()
-                            binding.txtConGanadasJ2.setText(
-                                (binding.txtConGanadasJ2.text.toString().toInt() + 1).toString()
-                            )
+                            binding.txtConGanadasJ2.setText((binding.txtConGanadasJ2.text.toString().toInt() + 1).toString())
                             partidaFinalizada = true
 
 
@@ -178,6 +168,93 @@ fun compro(listaDeOpc: Array<IntArray>): Int {
     ) {
         ganador = 2
     }
+//JAIMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                              HOLA
 
     return ganador
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ESTAMOS ACTIVOS
